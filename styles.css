@@ -81,12 +81,17 @@ body{
     padding: 24px;
 }
 .mySwiper .swiper-pagination {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000; 
     bottom: 9px;
 }
+
+.swiper-pagination{
+    margin-top: 20px;
+}
+
 .swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-android {
     height: 111px
 }
